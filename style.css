@@ -17,7 +17,7 @@ main {
 }
 .dropdown-container {
     width: 90%;
-    max-width: 550px;
+    max-width: 700px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -52,5 +52,9 @@ main {
 @media (min-width: 1280px) {
     main {
         background: url(assets/images/background-pattern-desktop.svg);
+        background-repeat: repeat-x;
+    }
+    .dropdown-header h2 {
+        font-size: 45px;
     }
 }
